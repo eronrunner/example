@@ -1,0 +1,95 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+/*header
+
+*/
+.dat-header {
+    width: auto;
+    height: 70px;
+    line-height: 70px;
+    margin: 0;
+    padding: 0;
+    background: red;
+}
+
+.dat-header div {
+    width: 150px;
+    margin: 0px 10px;
+    padding: 0;
+    height: inherit;
+    display: inline-block;
+    text-align: center;
+}
+
+.dat-header div:last-child {
+    float: right;
+}
+
+/*nav-bar
+
+*/
+.dat-nav-bar {
+    width: 70%;
+    height: 50px;
+    margin: auto;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    background: green;
+}
+
+.dat-nav-bar > div {
+    margin: auto;
+}
+
+/*main content*/
+.dat-main {
+    width: 70%;
+    height: auto;
+    margin: 20px auto;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    flex-direction: column;
+    background: gray;
+}
+
+.dat-main > div{
+    margin: auto;
+}
+
+/*wrap image*/
+.dat-wrap-img {
+    width: 200px;
+    height: 200px;
+    border-style: none;
+    border-radius: 50%;
+    box-sizing: border-box;
+}
+
+/*label*/
+.dat-label {
+    font-size: 16px;
+    text-align: center;
+    margin: 5px;
+}
+
+.seperator {
+    margin: 10px;
+    padding: 0;
+    width: 100%;
+    border: 1px solid;
+    opacity: 0.1;
+    border-radius: 50%;
+}
+
+.dat-footer {
+    background: blueviolet;
+}
